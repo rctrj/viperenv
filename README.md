@@ -16,7 +16,7 @@ import (
 var conf embed.FS
 
 type Config struct {
-	env viperenv.Env
+	Env viperenv.Env
 }
 
 func newConfig() *Config {
